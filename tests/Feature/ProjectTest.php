@@ -34,4 +34,15 @@ class ProjectTest extends TestCase
 
 
     }
+
+    /**
+     * @test
+     */
+    public function a_project_requires_a_title(){
+        $this->withoutExceptionHandling();
+
+        $this->post('/projects', [])->assertSessionHasNoErrors('titles');
+
+
+    }
 }
