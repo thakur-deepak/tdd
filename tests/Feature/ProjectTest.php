@@ -7,7 +7,6 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 
 
-
 class ProjectTest extends TestCase
 {
     use WithFaker, RefreshDatabase;
@@ -38,11 +37,24 @@ class ProjectTest extends TestCase
     /**
      * @test
      */
-    public function a_project_requires_a_title(){
+    public function a_project_requires_a_title()
+    {
 
+        $attributes = factory('App\Project')->raw(['title' => '']);
 
-        $this->post('/projects', [])->assertSessionHasNoErrors('title');
+        $this->post('/projects', $attributes)->assertSessionHasErrors('title');
 
+    }
+
+    /**
+     * @test
+     */
+    public function a_project_requires_a_description()
+    {
+
+        $attributes = factory('App\Project')->raw(['description' => '']);
+
+        $this->post('/projects', $attributes)->assertSessionHasErrors('description');
 
     }
 }
