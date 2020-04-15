@@ -34,5 +34,15 @@ class UserLoginTest extends TestCase
         $response->assertOk();
     }
 
+    /**
+     * @test
+     */
+    public function if_user_email_format_is_incorrect()
+    {
+        $this->user_data['email'] = 'test';
+        $response = $this->json('POST', route('user.login'), $this->user_data);
+        $response->assertStatus(422)->assertSee('The given data was invalid.');
+    }
+
 
 }
