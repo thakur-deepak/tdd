@@ -107,9 +107,13 @@ class UserController extends RestfulController
         $user = User::where('email', request()->email)->first();
 
         if (!$user || !Hash::check(request()->password, $user->password)) {
-            throw ValidationException::withMessages([
-                'email' => ['The provided credentials are incorrect.'],
-            ]);
+
+//           throw ValidationException::withMessages([
+//                'email' => ['The provided email is incorrect.'],
+//                'password' => ['The provided password is incorrect.']
+//            ]);
+            return $this->respondValidationFailed(trans('password'), ['message' => 'The provided password is incorrect.']);
+
         }
 
         return $user->createToken(request()->device_name)->plainTextToken;
