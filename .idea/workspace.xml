@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c38a9d-a9b7-4577-b19d-be9aa0293a49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tdd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/UserLoginTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UserLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UserLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/UserLogin.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +169,7 @@
       <workItem from="1586430724621" duration="1524000" />
       <workItem from="1586842036409" duration="1197000" />
       <workItem from="1586857893672" duration="1271000" />
-      <workItem from="1586930093348" duration="7810000" />
+      <workItem from="1586930093348" duration="9892000" />
     </task>
     <servers />
   </component>
@@ -195,10 +181,14 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2009" y="275" width="624" height="528" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585224636403" />
-    <state x="2059" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585222999416">
+    <state x="1860" y="0" width="912" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586940895381">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2059" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1585222999416" />
+    <state x="1860" y="0" width="912" height="1080" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586940895381" />
+    <state x="2059" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586940493745">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2059" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586940493745" />
     <state x="2109" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586931387090">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
