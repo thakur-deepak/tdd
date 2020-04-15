@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/projects', 'ProjectController@index')->name('project.index');
 
 Route::post('/projects', 'ProjectController@store')->name('project.store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
